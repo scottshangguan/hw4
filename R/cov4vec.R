@@ -16,7 +16,6 @@
 #'
 #'@examples
 #'pearson_cor(c(1,2,3,4,5),c(2,1,0,3,4),method="pearson",stat_test=FALSE) 
-#'
 #'@export
 #'
 
@@ -47,6 +46,27 @@ pearson_cor<-function(x,y,method,stat_test){ #21
     return(RVAL)
   }
 }
+
+#'cov4vec
+#'
+#'Gets different type of correlation, p-value, test statistics given two vectors
+#'
+#'@param x input vector
+#'
+#'@param y input vector, with the same dimension of x
+#'
+#'@param method a character string that indicates specific form of correlation, 
+#'either pearson, kendall or spearman
+#'
+#'@param stat_test input of TRUE or FASLE, to indicate the program whether
+#' to perform a test of significance and report p-value
+#'
+#'@return a list of combination of correlation information and value given x and y
+#'
+#'@examples
+#'spearman_cor(c(1,2,3,4,5),c(2,1,0,3,4),method="spearman",stat_test=FALSE) 
+#'@export
+#'
 
 spearman_cor<-function(x,y,method,stat_test){#23
   
