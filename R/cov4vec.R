@@ -132,7 +132,6 @@ spearman_cor<-function(x,y,method,stat_test){#23
 #'@export
 #'
 
-library(Rcpp)
 cppFunction('#include <iostream>
 #include <cmath>
 #include <vector>
