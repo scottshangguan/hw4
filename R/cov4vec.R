@@ -136,8 +136,9 @@ spearman_cor<-function(x,y,method,stat_test){#23
 #'cor_function(c(1,2,3,4,5),c(2,1,0,3,4),method="pearson",stat_test=FALSE) 
 #'@export
 #'
-#'
-cor_fuction<-function(x,y, method = c("pearson", "kendall", "spearman"),stat_test=FALSE){
+
+
+cor_function<-function(x,y, method = c("pearson", "kendall", "spearman"),stat_test=FALSE){
   
   word_vec=c("correlation","degree of freedom", "t-statistic", "p-value")
   if((is.vector(x)==FALSE) || (is.vector(y)==FALSE))

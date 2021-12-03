@@ -2,7 +2,7 @@
 % Please edit documentation in R/cov4vec.R
 \name{pearson_cor}
 \alias{pearson_cor}
-\title{cov4vec}
+\title{pearson correlation}
 \usage{
 pearson_cor(x, y, method, stat_test)
 }

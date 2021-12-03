@@ -2,7 +2,7 @@
 % Please edit documentation in R/cov4vec.R
 \name{spearman_cor}
 \alias{spearman_cor}
-\title{cov4vec}
+\title{spearman correlation}
 \usage{
 spearman_cor(x, y, method, stat_test)
 }
