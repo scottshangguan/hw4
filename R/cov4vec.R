@@ -1,3 +1,24 @@
+#'cov4vec
+#'
+#'Gets different type of correlation, p-value, test statistics given two vectors
+#'
+#'@param x input value 
+#'
+#'@param y input value
+#'
+#'@param method input string
+#'
+#'@param stat_test input 
+#'
+#'@return the correlation of x and y
+#'
+#'@examples
+#'pearson_cor(c(1,2),c(2,1),method="pearson",stat_test=TRUE)
+#'
+#'@export
+#'
+
+
 pearson_cor<-function(x,y,method,stat_test){ #21
   n=length(x)
   mean_x=mean(x)
