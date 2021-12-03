@@ -119,6 +119,8 @@ spearman_cor<-function(x,y,method,stat_test){#23
 #'
 #'Gets different type of correlation, p-value, test statistics given two vectors
 #'
+#'@import Rcpp
+#'
 #'@param x input vector
 #'
 #'@param y input vector, with the same dimension of x
