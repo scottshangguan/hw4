@@ -15,8 +15,7 @@
 #'@return a list of combination of correlation information and value given x and y
 #'
 #'@examples
-#'pearson_cor(c(1,2,3,4,5),c(2,1,0,3,4),method="pearson",stat_test=FALSE) # $correlation 0.6 
-#'$method "pearson"
+#'pearson_cor(c(1,2,3,4,5),c(2,1,0,3,4),method="pearson",stat_test=FALSE) 
 #'
 #'@export
 #'
