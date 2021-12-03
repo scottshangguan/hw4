@@ -25,6 +25,7 @@ pearson_cor<-function(x,y,method,stat_test){ #21
   }
 }
 
+library(Rcpp)
 cppFunction('#include <iostream>
 #include <cmath>
 #include <vector>
