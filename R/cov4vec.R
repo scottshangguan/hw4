@@ -6,14 +6,17 @@
 #'
 #'@param y input vector, with the same dimension of x
 #'
-#'@param method a character string that indicates specific form of correlation, either pearson, kendall or spearman
+#'@param method a character string that indicates specific form of correlation, 
+#'either pearson, kendall or spearman
 #'
-#'@param stat_test input of TRUE or FASLE, to indicate the program whether to perform a test of significance and report p-value
+#'@param stat_test input of TRUE or FASLE, to indicate the program whether
+#' to perform a test of significance and report p-value
 #'
 #'@return a list of combination of correlation information and value given x and y
 #'
 #'@examples
-#'pearson_cor(c(1,2,3,4,5),c(2,1,0,3,4),method="pearson",stat_test=FALSE), correlation = 0.6, method = "pearson"
+#'pearson_cor(c(1,2,3,4,5),c(2,1,0,3,4),method="pearson",stat_test=FALSE) # $correlation 0.6 
+#'$method "pearson"
 #'
 #'@export
 #'
