@@ -17,4 +17,5 @@ Suggests:
     knitr,
     testthat (>= 3.0.0)
 VignetteBuilder: knitr
+Encoding: UTF-8
 Config/testthat/edition: 3
