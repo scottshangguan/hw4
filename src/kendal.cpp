@@ -42,4 +42,4 @@
   //  return (double)(c-d)/(std::sqrt(nn-n1)*std::sqrt(nn-n2));
   //  //return (double)(c-d)/(nn*nn*(m-1)/(double)m)*2;
 //}
-//'
+///'
