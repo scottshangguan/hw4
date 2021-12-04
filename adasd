@@ -1,0 +1,136 @@
+[33mcommit 47802bc2887a1437464d7827d693c3851851b30e[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: scottshangguan <95471696+scottshangguan@users.noreply.github.com>
+Date:   Fri Dec 3 14:04:13 2021 -0500
+
+    Create README.md
+
+[33mcommit a83abb634679608245ba88852a65ad88793d87f3[m
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 14:03:09 2021 -0500
+
+    5
+
+[33mcommit d501eb0eaa454ac49d6814131023dd7f56b1bc53[m
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 13:55:31 2021 -0500
+
+    s
+
+[33mcommit aefc27f1afff4388ae5e5688e6934087741356b2[m
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 13:40:41 2021 -0500
+
+    new
+
+[33mcommit 8de40fc7e3beed8ba0cf6a2785bb2feeb9b1765f[m
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 13:30:19 2021 -0500
+
+    2
+
+[33mcommit 8fe933f1ed83311c5187c4fc641fdc79727060d0[m
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 13:26:13 2021 -0500
+
+    s
+
+[33mcommit 2c56e0862ba1ec4ccd046c37494894824ab4fc22[m
+Merge: 555a39d 0a0b5e1
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 13:20:50 2021 -0500
+
+    Merge branch 'master' of https://github.com/scottshangguan/hw4
+
+[33mcommit 555a39d416cdc39755f1ea11da1813364959b88b[m
+Merge: c078b66 d73d6cb
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 13:20:44 2021 -0500
+
+    Merge branch 'master' of https://github.com/scottshangguan/hw4
+    
+    # Conflicts:
+    #       R/cor4vec.R
+
+[33mcommit 0a0b5e14f6ca59842d19ecd06f1952045a82f1e2[m
+Author: scottshangguan <95471696+scottshangguan@users.noreply.github.com>
+Date:   Fri Dec 3 13:19:57 2021 -0500
+
+    Delete cor4vec.R
+
+[33mcommit c078b66763795da6ce4a835e705eaeb7b4c65f0f[m
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 13:18:36 2021 -0500
+
+    g
+
+[33mcommit 4d7d5ea08abb303ebcbff0c435e57650dc51f0a8[m
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 12:56:51 2021 -0500
+
+    delete code
+
+[33mcommit d73d6cbf7ae4999ce1843c6963b5cf0c0a9cace0[m
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 12:56:51 2021 -0500
+
+    delete rcpp
+
+[33mcommit 876f52de036aa17df0d243a42927e6e48d59674f[m
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 12:52:48 2021 -0500
+
+    4
+
+[33mcommit de1e729b3c12e1751c51e1e512e2bb82a04153d1[m
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 12:51:28 2021 -0500
+
+    3
+
+[33mcommit 983982d7686759134a21f3f6f22e3ef2b3110237[m
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 12:51:13 2021 -0500
+
+    t
+
+[33mcommit dab59dcbe30acd10f31f61a5af1680d683651341[m
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 12:49:49 2021 -0500
+
+    2
+
+[33mcommit f76eadf225685c61e64e7134ee8a92a519eb56ff[m
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 12:48:40 2021 -0500
+
+    s
+
+[33mcommit 910d277e1e737ee4e27eab86085a6993f9edab40[m
+Author: scottshangguan <95471696+scottshangguan@users.noreply.github.com>
+Date:   Fri Dec 3 12:47:05 2021 -0500
+
+    Update hello.R
+
+[33mcommit 92cd7065047df69033c897cda94bfc57dcaf0ba3[m
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 12:43:35 2021 -0500
+
+    +words
+
+[33mcommit 63fc6386d75d447b601a54ef2d2abe93f497e6d8[m
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 12:37:44 2021 -0500
+
+    +words
+
+[33mcommit a1c69ae87359e4b222ccc82d6bb16d865eaf8588[m
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 12:35:48 2021 -0500
+
+    add hiti
+
+[33mcommit d5dd4ff0a0b4914355d0035cae55af8a3a3e17ca[m
+Author: Chenhao Shangguan <cshanggu@umich.com>
+Date:   Fri Dec 3 12:34:27 2021 -0500
+
+    11
