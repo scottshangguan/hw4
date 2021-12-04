@@ -176,16 +176,15 @@ cor_function<-function(x,y, method = c("pearson", "kendall", "spearman"),stat_te
 #'@param stat_test input of TRUE or FASLE, to indicate the program whether
 #' to perform a test of significance and report p-value
 #'
-#'@import Rcpp
-#'
 #'@return a list of combination of correlation information and value given x and y
 #'
 #'@examples
-#'kendall(c(1,2,3,4,5),c(2,1,0,3,4)) 
+#'cor_function(c(1,2,3,4,5),c(2,1,0,3,4),method="pearson",stat_test=FALSE) 
 #'@export
 #'
 
 
+library(Rcpp)
 cppFunction('#include <iostream>
 #include <cmath>
 #include <vector>
