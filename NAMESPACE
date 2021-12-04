@@ -3,3 +3,5 @@
 export(cor_function)
 export(pearson_cor)
 export(spearman_cor)
+importFrom(Rcpp,sourceCpp)
+useDynLib(cov2)
