@@ -11,13 +11,13 @@ Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 #endif
 
 // kendall
-double kendall(vector<double> x, vector<double> y);
+double kendall(std::vector<double> x, std::vector<double> y);
 RcppExport SEXP _cov2_kendall(SEXP xSEXP, SEXP ySEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< vector<double> >::type x(xSEXP);
-    Rcpp::traits::input_parameter< vector<double> >::type y(ySEXP);
+    Rcpp::traits::input_parameter< std::vector<double> >::type x(xSEXP);
+    Rcpp::traits::input_parameter< std::vector<double> >::type y(ySEXP);
     rcpp_result_gen = Rcpp::wrap(kendall(x, y));
     return rcpp_result_gen;
 END_RCPP
