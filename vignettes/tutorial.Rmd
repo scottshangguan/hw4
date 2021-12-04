@@ -86,16 +86,16 @@ devtools::test()
 ```
 
 ```{r}
-#x=rnorm(1000000)
-#y=rnorm(1000000)
-#benchmark(cor.test(x,y,method="pearson"))
-#benchmark(cor_function(x,y,method="pearson",stat_test=TRUE))
-#benchmark(cor.test(x,y,method="spearman"))
-#benchmark(cor_function(x,y,method="spearman",stat_test=TRUE))
-#benchmark(cov(x,y,method="pearson"))
-#benchmark(cov_function(x,y,method="pearson"))
-#benchmark(cov(x,y,method="spearman"))
-#benchmark(cor_function(x,y,method="spearman"))
+x=rnorm(1000000)
+y=rnorm(1000000)
+benchmark(cor.test(x,y,method="pearson"))
+benchmark(cor_function(x,y,method="pearson",stat_test=TRUE))
+benchmark(cor.test(x,y,method="spearman"))
+benchmark(cor_function(x,y,method="spearman",stat_test=TRUE))
+benchmark(cov(x,y,method="pearson"))
+benchmark(cov_function(x,y,method="pearson"))
+benchmark(cov(x,y,method="spearman"))
+benchmark(cor_function(x,y,method="spearman"))
 ```
 
 My R package is generally slower than the cor.test and cov function in the stats package.
