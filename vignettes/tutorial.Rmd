@@ -66,9 +66,12 @@ devtools::test()
 ```
 
 ```{r}
-x=rnorm(1000000)
-y=rnorm(1000000)
-benchmark(cor.test(x,y,method="pearson"))
-benchmark(cor_function(x,y,method="pearson",stat_test=TRUE))
-
+#x=rnorm(1000000)
+#y=rnorm(1000000)
+#benchmark(cor.test(x,y,method="pearson"))
+#benchmark(cor_function(x,y,method="pearson",stat_test=TRUE))
+#benchmark(cor.test(x,y,method="spearman"))
+#benchmark(cor_function(x,y,method="spearman",stat_test=TRUE))
 ```
+
+My R package is generally faster than the cor.test function in the stats package.
