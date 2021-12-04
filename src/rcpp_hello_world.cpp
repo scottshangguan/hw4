@@ -8,7 +8,7 @@ using namespace Rcpp;
 
 // [[Rcpp::export]]
 
-double kendall(vector<double> x, vector<double> y){
+double kendall(std::vector<double> x, std::vector<double> y){
   int sum=0;
   std::vector<int> ti(x.size(),1);
   std::vector<int> ui(x.size(),1);
