@@ -3,7 +3,7 @@ Type: Package
 Title: Wrapper function of cov, cor and cor.test
 Version: 1.0
 Date: 2021-12-03
-Author: Chenhao Scott Shangguann
+Author: Chenhao Scott Shangguan
 Maintainer: Chenhao Scott Shangguan <cshanggu@umich.edu>
 Description: Given two same length vectors, report a list of statistcial information about different types of correlation
 License: GPL-3
