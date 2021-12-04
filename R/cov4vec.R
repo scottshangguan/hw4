@@ -11,8 +11,7 @@
 #'
 #'@param stat_test input of TRUE or FASLE, to indicate the program whether
 #' to perform a test of significance and report p-value
-#'@import stat
-#'@import pt
+#' 
 #'@return a list of combination of correlation information and value given x and y
 #'
 #'@examples
