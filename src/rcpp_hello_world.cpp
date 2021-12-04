@@ -1,8 +1,11 @@
+#include <otherPackage.h>
+#include <Rcpp.h>
 #include <iostream>
 #include <cmath>
 #include <vector>
 #include <algorithm>
-#include <Rcpp.h>
+
+
 using namespace Rcpp;
 
 

@@ -23,8 +23,11 @@ BEGIN_RCPP
 END_RCPP
 }
 
+RcppExport SEXP rcpp_hello_world(SEXP, SEXP);
+
 static const R_CallMethodDef CallEntries[] = {
     {"_cov2_kendall", (DL_FUNC) &_cov2_kendall, 2},
+    {"rcpp_hello_world", (DL_FUNC) &rcpp_hello_world, 2},
     {NULL, NULL, 0}
 };
 
