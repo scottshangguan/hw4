@@ -1,8 +1,4 @@
 #include <Rcpp.h>
-#include <iostream>
-#include <cmath>
-#include <vector>
-#include <algorithm>
 using namespace Rcpp;
 
 // Below is a simple example of exporting a C++ function to R. You can
