@@ -6,4 +6,8 @@ cov 2 is a R based package that are developed to calculate correlation and covar
 
 The motivation of this package is to combine the function of cor, cov and cor.test so that people can easily access different kind od correlation, covariance as well as the statistical significance.
 
+The R package will be updated after the grading. Although it's a very naive and perhaps problematic package, I am very proud to have it as my first baby.
+
+Please help yourself accesing each folder, it should be straghtfoward.
+
 [![codecov](https://codecov.io/gh/scottshangguan/hw4/branch/main/graph/badge.svg?token=Tj03f7o1B9)](https://codecov.io/gh/scottshangguan/hw4)
