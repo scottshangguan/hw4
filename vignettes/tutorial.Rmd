@@ -52,5 +52,6 @@ cor_function(x,y,method="spearman",stat_test=TRUE)
 ```
 
 ```{r}
-plot(1:10,square(1:10))
+usethis::use_testthat()
+usethis::use_test("pearson_cor")
 ```
