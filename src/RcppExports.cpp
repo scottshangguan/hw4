@@ -10,20 +10,21 @@ Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
 Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
 #endif
 
-// timesTwo
-int timesTwo(int x);
-RcppExport SEXP _cov2_timesTwo(SEXP xSEXP) {
+// kendall
+double kendall(std::vector<double> x, std::vector<double> y);
+RcppExport SEXP _cov2_kendall(SEXP xSEXP, SEXP ySEXP) {
 BEGIN_RCPP
     Rcpp::RObject rcpp_result_gen;
     Rcpp::RNGScope rcpp_rngScope_gen;
-    Rcpp::traits::input_parameter< int >::type x(xSEXP);
-    rcpp_result_gen = Rcpp::wrap(timesTwo(x));
+    Rcpp::traits::input_parameter< std::vector<double> >::type x(xSEXP);
+    Rcpp::traits::input_parameter< std::vector<double> >::type y(ySEXP);
+    rcpp_result_gen = Rcpp::wrap(kendall(x, y));
     return rcpp_result_gen;
 END_RCPP
 }
 
 static const R_CallMethodDef CallEntries[] = {
-    {"_cov2_timesTwo", (DL_FUNC) &_cov2_timesTwo, 1},
+    {"_cov2_kendall", (DL_FUNC) &_cov2_kendall, 2},
     {NULL, NULL, 0}
 };
 
