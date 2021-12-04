@@ -161,6 +161,3 @@ cor_function<-function(x,y, method = c("pearson", "kendall", "spearman"),stat_te
   }
 }
 
-kendall <- function(x,y) {
-  .Call('rcpp_hello_world', PACKAGE = 'cov2', x,y)
-}
