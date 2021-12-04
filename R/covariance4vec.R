@@ -68,13 +68,12 @@ spearman_cov<-function(x,y,method){
 #'cov_function(c(1,2,3,4,5),c(2,1,0,3,4),method="spearman") 
 #'@export
 #'
-#'
-#'
-cov_fuction<-function(x,y,method = c("pearson", "spearman")){
+
+cov_function<-function(x,y,method = c("pearson", "spearman")){
   if(method=="pearson"){
     return(pearson_cov(x,y,method=="pearson"))
   }
   else if(method=="spearman"){
-    return(spearman_cor(x,y,method=="spearman"))
+    return(spearman_cov(x,y,method=="spearman"))
   }
 }

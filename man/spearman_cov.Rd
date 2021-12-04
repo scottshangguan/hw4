@@ -18,7 +18,7 @@ either pearson, kendall or spearman}
 spearman covariance given x and y
 }
 \description{
-Gets different type of correlation, p-value, test statistics given two vectors
+Gets spearman covariance given two vectors
 }
 \examples{
 spearman_cov(c(1,2,3,4,5),c(2,1,0,3,4),method="spearman") 
