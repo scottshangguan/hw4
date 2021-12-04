@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(cov2)
 library(stats)
+library(rbenchmark)
 ```
 
 To use function wrapper function of ‘cor_function'
@@ -52,7 +53,22 @@ cor_function(x,y,method="spearman",stat_test=TRUE)
 ```
 
 Continuous Integration
+
 ```{r}
 usethis::use_github_action("check-release")
+```
+
+Check for the efficiency and accuracy
+
+```{r}
+usethis::use_testthat()
+devtools::test()
+```
+
+```{r}
+x=rnorm(1000000)
+y=rnorm(1000000)
+benchmark(cor.test(x,y,method="pearson"))
+benchmark(cor_function(x,y,method="pearson",stat_test=TRUE))
 
 ```
