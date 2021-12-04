@@ -51,7 +51,8 @@ Example pf spearman, with test
 cor_function(x,y,method="spearman",stat_test=TRUE)
 ```
 
+Continuous Integration
 ```{r}
-usethis::use_testthat()
-usethis::use_test("pearson_cor")
+usethis::use_github_action("check-release")
+
 ```

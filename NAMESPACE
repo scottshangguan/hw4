@@ -3,4 +3,3 @@
 export(cor_function)
 export(pearson_cor)
 export(spearman_cor)
-export(square)
