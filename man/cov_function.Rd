@@ -2,7 +2,7 @@
 % Please edit documentation in R/covariance4vec.R
 \name{cov_function}
 \alias{cov_function}
-\title{cov_function c}
+\title{cov_function}
 \usage{
 cov_function(x, y, method = c("pearson", "spearman"))
 }
@@ -18,7 +18,7 @@ either pearson, kendall or spearman}
 spearman covariance given x and y
 }
 \description{
-Gets pearson or spearman correlation given two vectors
+Gets pearson or spearman covariance given two vectors
 }
 \examples{
 cov_function(c(1,2,3,4,5),c(2,1,0,3,4),method="spearman") 

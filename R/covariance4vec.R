@@ -51,9 +51,9 @@ spearman_cov<-function(x,y,method){
   return(num/denom)
 }
 
-#'cov_function c
+#'cov_function 
 #'
-#'Gets pearson or spearman correlation given two vectors
+#'Gets pearson or spearman covariance given two vectors
 #'
 #'@param x input vector
 #'
