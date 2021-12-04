@@ -20,6 +20,7 @@ library(stats)
 library(rbenchmark)
 ```
 
+##
 To use function wrapper function of ‘cor_function'
 Put the input vector of x and y, correlation of interested and whether conducting a statistical test
 
@@ -51,6 +52,25 @@ Example pf spearman, with test
 ```{r}
 cor_function(x,y,method="spearman",stat_test=TRUE)
 ```
+
+##
+To use function wrapper function of ‘cov_function'
+Put the input vector of x and y, correlation of interested 
+
+Example of pearson
+
+```{r}
+cov_function(x,y,method="pearson")
+
+```
+
+Example of spearman
+
+```{r}
+cov_function(x,y,method="spearman")
+
+```
+
 
 Continuous Integration
 
