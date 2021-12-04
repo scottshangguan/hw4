@@ -19,5 +19,5 @@ test_that("cor_function works", {
   y8=rnorm(100)
   y9=rnorm(100)
   y10=rnorm(100)
-  expect_equal(cor_function(x1,y1,method="pearson",stat_test = TRUE)$correlation, cor.test(x1,y1,method="pearson")$estimate)
+  expect_equal(round(cor_function(x1,y1,method="pearson",stat_test = TRUE)$correlation,3), round(cor.test(x1,y1,method="pearson")$estimate,3))
 })
